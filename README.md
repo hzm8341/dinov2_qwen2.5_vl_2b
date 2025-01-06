@@ -473,7 +473,6 @@ Training time is approximately 3.3 days and the resulting checkpoint should reac
 
 The training code saves the weights of the teacher in the `eval` folder every 12500 iterations for evaluation.
 
-
 ## Evaluation
 
 The training code regularly saves the teacher weights. In order to evaluate the model, run the following evaluation on a single node:
@@ -610,11 +609,18 @@ If you find this repository useful, please consider giving a star :star: and cit
 }
 ```
 
-```
 @misc{darcet2023vitneedreg,
-  title={Vision Transformers Need Registers},
-  author={Darcet, Timothée and Oquab, Maxime and Mairal, Julien and Bojanowski, Piotr},
-  journal={arXiv:2309.16588},
-  year={2023}
+title={Vision Transformers Need Registers},
+author={Darcet, Timothée and Oquab, Maxime and Mairal, Julien and Bojanowski, Piotr},
+journal={arXiv:2309.16588},
+year={2023}
 }
-```
+
+
+## 环境的配置
+
+1、先参考https://blog.csdn.net/hzm8341/article/details/144857099?spm=1001.2014.3001.5502，把代码运行起来。
+
+2、参考DINOv2，把需要的环境配置好。
+
+3、运行代码python train_dinov2.py即可。
