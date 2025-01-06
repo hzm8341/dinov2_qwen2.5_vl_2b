@@ -1,3 +1,13 @@
+## 环境配置
+
+1、先参考https://blog.csdn.net/hzm8341/article/details/144857099?spm=1001.2014.3001.5502，把代码运行起来。
+
+2、参考DINOv2，把需要的环境配置好。
+
+3、运行代码python train_dinov2.py即可。
+
+
+
 :new: [2023-10-26] *Added DINOv2 backbones with registers, following [Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588).*
 
 # DINOv2: Learning Robust Visual Features without Supervision
@@ -615,12 +625,3 @@ author={Darcet, Timothée and Oquab, Maxime and Mairal, Julien and Bojanowski, P
 journal={arXiv:2309.16588},
 year={2023}
 }
-
-
-## 环境的配置
-
-1、先参考https://blog.csdn.net/hzm8341/article/details/144857099?spm=1001.2014.3001.5502，把代码运行起来。
-
-2、参考DINOv2，把需要的环境配置好。
-
-3、运行代码python train_dinov2.py即可。
